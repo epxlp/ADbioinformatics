@@ -2,4 +2,36 @@ AD Bioinformatics tutorial
 
 In this session we will use some online tools to investigate possible functional mechanisms of AD GWAS loci
 
+
+GWAS association results
+
 1. Download the file .................txt from this github repository to your computer
+
+2. First open the file in excel and take a look at the results included. Sort the file to find the strongest association.
+
+Q. What is the rsid of the lead SNP?
+
+
+
+GTEx - eQTL analysis
+
+3. Go to the GTEx website www.gtexprotal.org and enter the lead SNP rsid into the 'single-tissue eQTLs' search.
+
+Q. Which gene is the lead SNP associated with the expression of?
+Q. In which tissues is this observation seen?
+Q. Is the AD-risk allele associated with increased or decreased expression?
+
+4. Go back to the home page and enter the gene name into the 'transcriptome' search.
+
+Q. Is the gene specifically or ubiquitously expressed?
+
+
+
+
+Haploreg
+
+4. Go to the Haploreg website https://pubs.broadinstitute.org/mammals/haploreg/haploreg.php and enter the lead SNP rsid.
+
+
+
+
