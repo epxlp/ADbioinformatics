@@ -67,7 +67,7 @@ Haploreg by default will include all SNPs with an LD r2>0.8. Alter this on the o
 
 ## RegulomeDB
 
-9. Go to regulomeDB regulomedb.org and enter the list of SNPs from Haploreg (or the list that have p<0.01).
+9. Go to regulomedb.org and enter the list of SNPs from Haploreg (or the list that have p<0.01).
 10. Click the '?' in the score colum to find out what the score represents.Go down the help page to find out what data the score is combining
 11. Now go back to the list of scores for the SNP you entered. You can click on the scores to get more information about the underlying data
 
