@@ -1,13 +1,13 @@
 # AD Bioinformatics tutorial
 
-### In this session we will use some online tools to investigate possible functional mechanisms of AD GWAS loci
+#### In this session we will use some online tools to investigate possible functional mechanisms of AD GWAS loci
 
-### As you go through this tutorial, remember our 4 key questions:
+#### As you go through this tutorial, remember our 4 key questions:
 
-### - What is the causal variant?
-### - What is the causal gene?
-### - Which cell type is affected?
-### - What is the mechanism/pathway that is disturbed?
+#### - What is the causal variant?
+#### - What is the causal gene?
+#### - Which cell type is affected?
+#### - What is the mechanism/pathway that is disturbed?
 
 
 
