@@ -2,12 +2,20 @@ AD Bioinformatics tutorial
 
 In this session we will use some online tools to investigate possible functional mechanisms of AD GWAS loci
 
+As you go through this tutorial, remember our 4 key questions:
+
+- What is the causal variant?
+- What is the causal gene?
+- Which cell type is affected?
+- What is the mechanism/pathway that is disturbed?
+
+
 
 GWAS association results
 
-1. Download the file .................txt from this github repository to your computer
+1. Download the file rs112111458_region_results.txt from this github repository to your computer
 
-2. First open the file in excel and take a look at the results included. Sort the file to find the strongest association.
+2. First open the file in excel and take a look at the results included. Sort the sheet to find the strongest association.
 
 Q. What is the rsid of the lead SNP?
 
@@ -32,23 +40,38 @@ Q. Is the gene specifically or ubiquitously expressed?
 
 
 
+Chromatin interactions?
+
+Go to the YUE lab 3D genome browser.
+
+
 
 Haploreg
 
-4. Go to the Haploreg website https://pubs.broadinstitute.org/mammals/haploreg/haploreg.php and enter the lead SNP rsid. Haploreg by default will include all SNPs with an LD r2>0.8. You can alter this on the options page if you wish.
+4. Go to the Haploreg website https://pubs.broadinstitute.org/mammals/haploreg/haploreg.php and enter the lead SNP rsid. Click run. Have a look at the output.
+Haploreg by default will include all SNPs with an LD r2>0.8. Alter this on the options page to include all SNPs with r2>0.4 with the lead SNP (NB - this is an arbitrary selection to give you a nice amount of output - it's probably too liberal in reality)
 
 Q. What annotations from haploreg might be important?
+Q. Can you tell from Haploreg which variant might be the causal variant?
+Q. Can you tell from Haplored which gene might be the causal gene? 
 Q. Why might the results be different to GTEx?
+
+Before moving on. Copy this new list of SNPs - we'll use it in the next section. (It might help to copy the whole table to a spreadsheet)
 
 
 
 RegulomeDB?
 
+Go to regulomeDB regulomedb.org and enter the list of SNPs from Haploreg (or the list that have p<0.01).
+Click the '?' in the score colum to find out what the score represents
+Go down the help page to find out what data the score is combining
+Now go back to the list of scores for the SNP you entered
+You can click on the scores to get more information about the underlying data
 
-
-
-Chromatin interactions?
-
+Q. Which SNP(s) has/have the lowest score?
+Q. How confident would you be that you have identified the causal variant?
+Q. Can you tell from regulomeDB which gene might be the causal gene?
+Q. Why might the results be different to GTEx and Haploreg?
 
 
 
