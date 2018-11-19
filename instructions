@@ -11,6 +11,11 @@ GWAS association results
 
 Q. What is the rsid of the lead SNP?
 
+3. We won't use a formal fine-mapping method in this practical, but you could create a reasonable credible set by identifying all variants with p<0.01
+
+4. Enter the region containing the p<0.01 SNPs into the ensembl genome browser. NB - results use GR37 - so be sure to use the right browser.
+
+Q. Is the causal variant likely to be coding or regulatory?
 
 
 GTEx - eQTL analysis
@@ -30,8 +35,40 @@ Q. Is the gene specifically or ubiquitously expressed?
 
 Haploreg
 
-4. Go to the Haploreg website https://pubs.broadinstitute.org/mammals/haploreg/haploreg.php and enter the lead SNP rsid.
+4. Go to the Haploreg website https://pubs.broadinstitute.org/mammals/haploreg/haploreg.php and enter the lead SNP rsid. Haploreg by default will include all SNPs with an LD r2>0.8. You can alter this on the options page if you wish.
+
+Q. What annotations from haploreg might be important?
+Q. Why might the results be different to GTEx?
 
 
+
+RegulomeDB?
+
+
+
+
+Chromatin interactions?
+
+
+
+
+
+
+FUMA
+
+Go to the FUMA website fuma.ctglab.nl
+
+Register for an account
+
+Then go the the SNP2GENE page and edit the job instructions as follows:
+- In section 1, use the file rs112111458_region_results.txt and enter the relevant column names
+- In section 2, name the sample size column and change the minimum p-value to 1e-5
+- In section 3-2, select to perform eQTL mapping and select 'all' tissue types.
+- In section 3-3, select to perform chromatin interaction mapping, using 'all' tissue types and annotate promoters/enhancers using 'all' tissue types
+- In section 5, select to perform MAGMA with 'GTEx v7 53 tissues'
+- Now give your job a useful name and hit run
+- Results should be returned after a few minutes
+
+Q. 
 
 
