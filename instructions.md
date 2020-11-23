@@ -38,7 +38,7 @@
 
 > Q. Is the AD-risk allele associated with increased or decreased expression?
 
-6. Go back to the home page and enter the gene name into the 'transcriptome' search.
+6. Go back to the home page and enter the gene name into the 'gene ID' search.
 
 > Q. Is the gene specifically or ubiquitously expressed?
 
@@ -94,7 +94,7 @@ Go to the FUMA website fuma.ctglab.nl
 - In section 2, name the sample size column and change the minimum p-value to 1e-5
 - In section 3-2, select to perform eQTL mapping and select 'all' tissue types.
 - In section 3-3, select to perform chromatin interaction mapping, using 'all' tissue types and annotate promoters/enhancers using 'all' tissue types
-- In section 5, select to perform MAGMA with 'GTEx v7 53 tissues'
+- In section 5, select to perform MAGMA with 'GTEx v8 54 tissues'
 - Now give your job a useful name and hit run
 - Results should be returned after a few minutes
 
@@ -109,7 +109,7 @@ Go to the FUMA website fuma.ctglab.nl
 
 
 
-## The brand new Open Targets Genetics platform
+## The Open Targets Genetics platform
 
 15. Navigate to genetics.opentargets.org
 
